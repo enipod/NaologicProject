@@ -1,0 +1,31 @@
+{
+  "status": "PENDING",
+  "products": [
+    {
+      "productId": "[your existing product id  here]",
+      "variants": [
+        {
+          "variantId": "[your existing variant id here]",
+          "quantity": 7
+        },
+        {
+          "variantId": "[your existing variant id here]",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "productId": "[your existing product id  here]",
+      "variants": [
+        {
+          "variantId": "[your existing variant id here]",
+          "quantity": 7
+        },
+        {
+          "variantId": "[your existing variant id here]",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

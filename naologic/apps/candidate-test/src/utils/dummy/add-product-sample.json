@@ -1,0 +1,44 @@
+{
+    "name": "Lacrose",
+    "category": "Shirt",
+    "manufacturer": "Co-Clothes TM",
+    "price": 30,
+    "variants": [
+        {
+            "quantity": 7,
+            "variantOptions": {
+                "color": "GREEN",
+                "gender": "MALE",
+                "season": "SUMMER",
+                "size": "S"
+            }
+        },
+        {
+            "quantity": 3,
+            "variantOptions": {
+                "color": "RED",
+                "gender": "MALE",
+                "season": "SUMMER",
+                "size": "M"
+            }
+        },
+        {
+            "quantity": 6,
+            "variantOptions": {
+                "color": "BLUE",
+                "gender": "MALE",
+                "season": "SUMMER",
+                "size": "L"
+            }
+        },
+        {
+            "quantity": 9,
+            "variantOptions": {
+                "color": "BLUE",
+                "gender": "MALE",
+                "season": "SUMMER",
+                "size": "M"
+            }
+        }
+    ]
+}

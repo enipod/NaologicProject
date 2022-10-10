@@ -1,0 +1,132 @@
+[
+    {
+        "id": "[id of the product]",
+        "variants": [
+            {
+                "quantity": 5,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "RED",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "L"
+                }
+            },
+            {
+                "quantity": 5,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "GREEN",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "M"
+                }
+            },
+            {
+                "quantity": 7,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "GREEN",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "S"
+                }
+            },
+            {
+                "quantity": 3,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "RED",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "M"
+                }
+            },
+            {
+                "quantity": 6,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "BLUE",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "L"
+                }
+            },
+            {
+                "quantity": 9,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "BLUE",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "M"
+                }
+            }
+        ]
+    },
+    {
+        "id": "[id of the product]",
+        "variants": [
+            {
+                "quantity": 5,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "RED",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "L"
+                }
+            },
+            {
+                "quantity": 5,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "GREEN",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "M"
+                }
+            },
+            {
+                "quantity": 7,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "GREEN",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "S"
+                }
+            },
+            {
+                "quantity": 3,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "RED",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "M"
+                }
+            },
+            {
+                "quantity": 6,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "BLUE",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "L"
+                }
+            },
+            {
+                "quantity": 9,
+                "id": "[id of the variant]",
+                "variantOptions": {
+                    "color": "BLUE",
+                    "gender": "MALE",
+                    "season": "SUMMER",
+                    "size": "M"
+                }
+            }
+        ]
+    }
+]
