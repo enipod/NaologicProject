@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "34e65fa1-b1c3-46bb-879e-126d9a93ff4f",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22546012"
+	},
+	"item": [
+		{
+			"name": "Get One Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/api/product/6343549184be41a287cd396b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"product",
+						"6343549184be41a287cd396b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Many Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/api/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get One Order",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/api/order/6343549184be41a287cd396b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"order",
+						"6343549184be41a287cd396b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Many Orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/api/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Lacrose\",\n    \"category\": \"Shirt\",\n    \"manufacturer\": \"Co-Clothes TM\",\n    \"price\": 30,\n    \"variants\": [\n        {\n            \"quantity\": 7,\n            \"variantOptions\": {\n                \"color\": \"GREEN\",\n                \"gender\": \"MALE\",\n                \"season\": \"SUMMER\",\n                \"size\": \"S\"\n            }\n        },\n        {\n            \"quantity\": 3,\n            \"variantOptions\": {\n                \"color\": \"RED\",\n                \"gender\": \"MALE\",\n                \"season\": \"SUMMER\",\n                \"size\": \"M\"\n            }\n        },\n        {\n            \"quantity\": 6,\n            \"variantOptions\": {\n                \"color\": \"BLUE\",\n                \"gender\": \"MALE\",\n                \"season\": \"SUMMER\",\n                \"size\": \"L\"\n            }\n        },\n        {\n            \"quantity\": 9,\n            \"variantOptions\": {\n                \"color\": \"BLUE\",\n                \"gender\": \"MALE\",\n                \"season\": \"SUMMER\",\n                \"size\": \"M\"\n            }\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/api/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"status\": \"PENDING\",\n    \"products\": [\n        {\n            \"productId\": \"6343549184be41a287cd396b\",\n            \"variants\": [\n                {\n                    \"variantId\": \"5b6a013a-5de3-4680-980c-284965346829\",\n                    \"quantity\": 7\n                },\n                {\n                    \"variantId\": \"c7b20ef1-e886-4662-b1a9-d555bcf7dac4\",\n                    \"quantity\": 1\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3333/api/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/api/product/63431fa86d01d26a51d173ea",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"product",
+						"63431fa86d01d26a51d173ea"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Order",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/api/order/63432726202f83750d800790",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"order",
+						"63432726202f83750d800790"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update One",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/api/product/bulk-update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"api",
+						"product",
+						"bulk-update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
